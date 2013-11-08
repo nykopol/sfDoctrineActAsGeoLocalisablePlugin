@@ -1,0 +1,20 @@
+
+doctrine_geo_localisable:
+  latitude:
+    enabled: true
+    field_name: latitude
+    field_type: decimal
+    field_length: 10
+    params:
+      type: decimal
+      scale: 6
+      length: 10
+  longitude:
+    enabled: true
+    field_name: longitude
+    field_type: decimal
+    field_length: 10
+    params:
+      type: decimal
+      scale: 6
+      length: 10
